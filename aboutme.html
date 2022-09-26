@@ -4,13 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>吳育樑簡介Ivon </title>
+
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "mountain.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資管";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "cliff.jpg";
+  			document.getElementById("h2text").innerText = "Yu-Liang Wu";
+		}
+	</script>
+
+
 </head>
 <body>
 	<h1>吳育樑</h1>
 	<h2>Yu-Liang Wu</h2>
-	FB：https://www.facebook.com/profile.php?id=100009731476645<br>
-	IG: https://www.instagram.com/yu_liang0801/<br>
-	Mail:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox<br>
 
 	大象席地而坐電影配樂<br>
 	<audio controls>
@@ -24,7 +35,7 @@
 	<table width="70%">
 		<tr>
 			<td>
-				<img src="cliff.jpg" width="110%"></img>
+				
 			</td>>
 
 			<td>
@@ -36,10 +47,10 @@
 	<table width="70%" border="1">
 		<tr>
 			<td>
-				個人網頁：<a href="https://www1.pu.edu.tw/~tcyang">https://www1.pu.edu.tw/~tcyang</a><br>
-				FB：<a href="https://www.facebook.com/tcyang1971" target="_blank">https://www.facebook.com/tcyang1971</a><br>
-				Tel: <a href="tel:0426328001,18110">04-26328001#18110</a><br>
-				E-Mail: <a href="mailto:tcyang@pu.edu.tw">tcyang@pu.edu.tw</a><br>
+				個人網頁：<a href="file:///C:/aboutme/aboutme.html" target="_blank">file:///C:/aboutme/aboutme.html</a><br>
+				FB：<a href="https://www.facebook.com/" target="_blank">https://www.facebook.com/</a><br>
+				IG: <a href="https://www.instagram.com/yu_liang0801/" target="_blank">https://www.instagram.com/yu_liang0801/</a><br>
+				E-Mail: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox</a><br>
 			</td>
 
 			<td>
@@ -54,7 +65,22 @@
 				<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
 			</td>
 		</tr>
-	</table>		
+	</table>
+
+	<body>
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="cliff.jpg" width="110%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+
+			<td>
+				<h1>吳育樑</h1>
+				<h2 id="h2text">Yu-Liang Wu</h2>
+			</td>
+		</tr>
+	</table>
+		
 
 
 
